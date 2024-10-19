@@ -1,0 +1,7 @@
+## Tabela de Conteudo
+
+- [Attribute Effectiveness](#attributeeffectiveness)
+
+##Attribute Effectiveness
+
+Attribute effectiveness (AE) is the first criterion to be examined for the attributes. It prefers the attribute that has the least number of “don't care” values for the class decisions in the rules, as this indicates its high relevance for discriminating among rule sets of given decision classes. On the other hand, an attribute which is omitted from all the rules (i.e., has a “don't care” value) for a certain class decision does not contribute in producing that corresponding decision. Thus, it is considered less important than the other attributes which are mentioned in the rule for producing a decision of that class. Choosing attributes based on this criterion maximizes the chances of reaching leaf nodes faster, which in turn minimizes the branching process and leads to producing a smaller tree.
